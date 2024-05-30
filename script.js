@@ -5,9 +5,9 @@ $(document).ready(function() {
         var fechaSeleccionada = $("#fecha").val();
 
         $.ajax({
-            url: "https://carlosltn0203.github.io/json-/api/dummy",
+            url: "https://raw.githubusercontent.com/tu-usuario/tu-repositorio-api/main/disponibilidad.json",
             method: "GET",
-            data: { fecha: fechaSeleccionada },
+            dataType: "json", // Especifica que esperas recibir un JSON
             success: function(data) {
                 mostrarDisponibilidad(data);
             },
