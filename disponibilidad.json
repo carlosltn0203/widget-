@@ -1,0 +1,20 @@
+{
+  "fecha": "2023-05-20",
+  "personal_disponible": [
+    {
+      "nombre": "Silvia Biana",
+      "horarios": ["8:00-12:00", "14:00-18:00"],
+      "id": "123456"
+    },
+    {
+      "nombre": "Emma Matute",
+      "horarios": ["8:00-12:00"],
+      "id": "789012"
+    },
+    {
+      "nombre": "Katty Panchi",
+      "horarios": ["14:00-18:00"],
+      "id": "345678"
+    }
+  ]
+}
