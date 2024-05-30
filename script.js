@@ -5,7 +5,7 @@ $(document).ready(function() {
         var fechaSeleccionada = $("#fecha").val();
 
         $.ajax({
-            url: "https://raw.githubusercontent.com/tu-usuario/tu-repositorio-api/main/disponibilidad.json",
+            url: "https://raw.githubusercontent.com/carlosltn0203/widget-/main/disponibilidad.json",
             method: "GET",
             dataType: "json", // Especifica que esperas recibir un JSON
             success: function(data) {
